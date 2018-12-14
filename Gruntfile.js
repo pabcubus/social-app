@@ -53,8 +53,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 
 	grunt.registerTask('serve', [
-		'sass',
-		'cssmin',
+		//'sass',
+		//'cssmin',
 		'concurrent:serve'
 	]);
 

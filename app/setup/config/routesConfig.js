@@ -2,7 +2,7 @@
 	let app = angular.module('social-app');
 
 	app.config(function($stateProvider, $urlRouterProvider) {
-		$urlRouterProvider.otherwise('/index');
+		$urlRouterProvider.otherwise('/home');
 
 		$stateProvider
 			.state('home', {
