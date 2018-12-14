@@ -1,1 +1,1 @@
-var app = angular.module('social-app', []);
+angular.module('social-app', ['ui.router', 'facebook', 'ngLodash']);
